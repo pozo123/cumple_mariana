@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<style>
+table, td {
+  border: 1px solid black;
+  column-width: 40px;
+}
+</style>
+<html>
+<body align="center">
+
+<h1 align="center">Mancala Solver</h1>
+
+<p>Cool cool cool cool cool</p>
+
+<p>By Diego Pozo</p>
+
+<button onclick="solve()">Solve</button>
+<br/>
+<br/>
+<button onclick="step()">Step</button>
+<br/>
+<br/>
+
+<table id="myTable" align="center">
+  <tr height="40">
+    <td align="center" id="tu_0" contenteditable="true" colspan="2"></td>
+  </tr>
+  <tr height="40">
+    <td align="center" id="yo_6" contentEditable="true"></td>
+    <td align="center" id="tu_1" contentEditable="true"></td>
+  </tr>
+  <tr height="40">
+    <td align="center" id="yo_5" contentEditable="true"></td>
+    <td align="center" id="tu_2" contentEditable="true"></td>
+  </tr>
+  <tr height="40">
+    <td align="center" id="yo_4" contentEditable="true"></td>
+    <td align="center" id="tu_3" contentEditable="true"></td>
+  </tr>
+  <tr height="40">
+    <td align="center" id="yo_3" contentEditable="true"></td>
+    <td align="center" id="tu_4" contentEditable="true"></td>
+  </tr>
+  <tr height="40">
+    <td align="center" id="yo_2" contentEditable="true"></td>
+    <td align="center" id="tu_5" contentEditable="true"></td>
+  </tr>
+  <tr height="40">
+    <td align="center" id="yo_1" contentEditable="true"></td>
+    <td align="center" id="tu_6" contentEditable="true"></td>
+  </tr>
+  <tr height="40">
+    <td align="center" id="yo_0" contenteditable="true" colspan="2"></td>
+  </tr>
+</table>
+<br> 
+
+<p id="score"></p>
+
+<script src="solver.js"></script>        
+
+</body>
+</html>
